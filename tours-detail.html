@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts: Istok Web, JejuMyeongjo -->
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Jeju+Myeongjo&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- hero section -->
+    <div class="tour-hero-section position-relative overflow-hidden rounded-4 w-90"
+        style="background-image: url('/images/tour-detail-bg.png'); background-size: cover; background-position: center; ">
+        <div class="tour-hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center"
+            style="background: rgba(0,0,0,0.35);">
+            <h1 class="text-white fs-1 fw-bold mb-2" style="font-size:2rem;">Buggy Tour!</h1>
+            <p class="text-white m-0 fs-5 small text-center" style="max-width: 90%;">The official governmental center to
+                activate and regulate adventure tourism in Fujairah #venture_safely</p>
+        </div>
+    </div>
+    <!-- text section -->
+    <div class="container">
+        <h2 class="fw-bold  fs-1 w-60 text-center">What are you waiting for – An adventure awaits</h2>
+        <p class="fs-5 w-90 text-center">At Big Red Adventure Tours, we bring exciting and thrilling adventure tours to
+            everyone. Our experienced tour guides will show and teach you how to control our amazing desert machine and
+            take you to hidden places of natural beauty in the vast Arabian Desert. When you book a tour with Big Red,
+            we know that you’ll have as much excitement exploring the beauty of the desert as we do!</p>
+    </div>
+    <!-- card section -->
+    <div class="container my-5">
+        <div class="row justify-content-center g-4 gap-y-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour1.png" class="card-img-top rounded-top-4" alt="Tour 1">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour2.png" class="card-img-top rounded-top-4" alt="Tour 2">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour3.png" class="card-img-top rounded-top-4" alt="Tour 3">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour1.png" class="card-img-top rounded-top-4" alt="Tour 1">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour2.png" class="card-img-top rounded-top-4" alt="Tour 2">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour3.png" class="card-img-top rounded-top-4" alt="Tour 3">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 7 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour1.png" class="card-img-top rounded-top-4" alt="Tour 1">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour2.png" class="card-img-top rounded-top-4" alt="Tour 2">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour3.png" class="card-img-top rounded-top-4" alt="Tour 3">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 10 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour1.png" class="card-img-top rounded-top-4" alt="Tour 1">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 11 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour2.png" class="card-img-top rounded-top-4" alt="Tour 2">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 12 -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="tour-card card p-0 rounded-4 position-relative h-100" style="width: 100%; ">
+                    <div class="position-relative">
+                        <img src="/images/tour3.png" class="card-img-top rounded-top-4" alt="Tour 3">
+                        <div class="price-badge position-absolute top-0 end-0 translate-middle-y me-3 mt-2">
+                            <div class="badge-circle bg-dark-green text-white text-center">
+                                <div class="small">AED</div>
+                                <div class="fw-bold fs-4">345</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">2-Hour Single Rider Can-Am X3</h5>
+                        <p class="card-text small">The official governmental center to activate and regulate adventure
+                            tourism in Fujairah #venture_safely</p>
+                        <div class="d-flex justify-content-between text-center mb-3">
+                            <div class="flex-fill">
+                                <i class="far fa-clock"></i><br><span class="small">30 Minutes</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-shield-alt"></i><br><span class="small">Safety Gears</span>
+                            </div>
+                            <div class="flex-fill">
+                                <i class="fas fa-user-tie"></i><br><span class="small">Expert Guide</span>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#" class="btn btn-dark-green flex-fill">Book Now</a>
+                            <a href="#" class="btn btn-outline-dark-green flex-fill">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-lg px-5 py-2 btn-dark-green" style="font-size: 1.3rem;">See All Tour</a>
+        </div>
+    </div>
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
