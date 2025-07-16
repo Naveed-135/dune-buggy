@@ -50,31 +50,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeSidebar = document.querySelector('.close-sidebar');
     const sidebarBackdrop = document.getElementById('sidebarBackdrop');
 
-    console.log('menuToggle:', menuToggle);
-    console.log('mobileSidebar:', mobileSidebar);
-    console.log('closeSidebar:', closeSidebar);
-    console.log('sidebarBackdrop:', sidebarBackdrop);
 
     function openSidebar() {
-        console.log('openSidebar called');
         mobileSidebar.style.transform = 'translateX(0)';
         sidebarBackdrop.style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
 
     function closeSidebarFn() {
-        console.log('closeSidebarFn called');
         mobileSidebar.style.transform = 'translateX(100%)';
         sidebarBackdrop.style.display = 'none';
         document.body.style.overflow = '';
     }
 
     if (menuToggle && mobileSidebar && closeSidebar && sidebarBackdrop) {
-        console.log('Attaching event listeners');
         menuToggle.addEventListener('click', openSidebar);
         closeSidebar.addEventListener('click', closeSidebarFn);
         sidebarBackdrop.addEventListener('click', closeSidebarFn);
     } else {
-        console.warn('One or more sidebar elements not found');
     }
 });
