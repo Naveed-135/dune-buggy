@@ -1,5 +1,5 @@
 /* mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .w-90 , .w-80 , .w-70 , .w-60{
     width: 100%;
   }
@@ -94,5 +94,10 @@ width: fit-content;
   }
   .gap-y-4{
     row-gap: 24px;
+  }
+}
+@media (max-width:768px){
+  .w-90 , .w-80 , .w-70 , .w-60{
+    width: 100%;
   }
 }
